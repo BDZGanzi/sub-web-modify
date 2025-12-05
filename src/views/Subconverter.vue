@@ -478,6 +478,7 @@ export default {
           "sub.cm": "https://sub.cm/short",
         },
         customBackend: {
+          "自用": " https://subconverter.19981127.xyz",
           "肥羊增强型后端【vless reality+anytls】": "https://api.v1.mk",
           "肥羊备用后端【vless reality+anytls】": "https://url.v1.mk",
         },
@@ -1126,7 +1127,7 @@ export default {
           "&scv=" +
           this.form.scv.toString() +
           "&fdn=" +
-          this.form.fdn.toString();    
+          this.form.fdn.toString();
       if (this.form.clientType.includes("surge")) {
         if (this.form.tpl.surge.doh === true) {
           this.customSubUrl += "&surge.doh=true";
@@ -1416,7 +1417,3 @@ export default {
   }
 };
 </script>
-
-
-
-
